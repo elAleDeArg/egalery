@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-shadow: border-box !important;
+  box-sizing: border-box;
+}
+
+.free {
+  padding: 10px 30px;
+  width: 100%;
+  background: black;
+  display: flex;
+}
+
+.free .icon {
+  color: white;
+  font-size: 32px;
+}
+.free p {
+  margin-left: 10px;
+  color: white;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.main_header .container .logo img {
+  width: 50px;
+  height: 50px;
+}
+.main_header {
+  padding: 30px 40px;
+  width: 100%;
+  border-bottom: black 1px solid;
+}
+.main_header .container {
+  display: flex;
+  justify-content: space-between;
+}
+.main_header .container .search_box {
+  margin-right: 30px;
+}
+.main_header .container .search_box input {
+  outline: none;
+  padding: 10px 30px;
+  border: 1px solid #0989ff;
+  width: 300px;
+  color: wheat;
+}
+.main_header .container .search_box button {
+  border: none;
+  outline: none;
+  padding: 11px 20px;
+  cursor: pointer;
+  background: #0989ff;
+  color: wheat;
+}
+.main_header .container .icon {
+  display: flex;
+  margin-right: 50px;
+}
+.main_header .container .icon .account 
+{
+  display: flex;
+  margin-right: 30px;
+}
+.main_header .container .icon .account .user_icon
+{
+    margin-right: 10px;
+    font-size: 22px;
+    color: black;
+    cursor: pointer;
+}
+.main_header .container .icon .account p
+{
+    margin-right: 5px;
+    margin-top: 2px;
+}
+.main_header .container .icon .second_icon
+{
+    display: flex;
+}
+.main_header .container .icon .second_icon p
+{
+    margin-right: 5px;
+    font-size: 22px;
+    cursor: pointer;
+}
