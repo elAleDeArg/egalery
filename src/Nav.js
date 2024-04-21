@@ -3,6 +3,7 @@ import { FaTruck, FaHeart, FaShoppingCart, FaUser } from "react-icons/fa";
 import { RiLoginBoxFill, RiLogoutBoxFill } from "react-icons/ri";
 import { Link } from "react-router-dom";
 import { useAuth0 } from "@auth0/auth0-react";
+import logo from "./img/logo.svg"
 
 import "./Nav.css";
 
@@ -21,7 +22,7 @@ const Nav = () => {
       <div className="main_header">
         <div className="container">
           <div className="logo">
-            <img src="./img/logo.svg" alt="logo"></img>
+            <img src={logo} alt="logo"></img>
           </div>
           <div className="search_box">
             <input
