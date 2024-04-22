@@ -10,7 +10,7 @@ import "./Home.css";
 
 const Home = () => {
   return (
-    <>
+    <>///Como no se cuantas categorias va a tener esta pagina lo hago asi.
       <div className="top_banner">
         <div className="container">
           <div className="detail">
